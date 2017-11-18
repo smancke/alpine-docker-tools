@@ -1,6 +1,5 @@
 
-FROM gliderlabs/alpine
-
+FROM alpine
 
 RUN apk --update add py-pip py-yaml curl docker git &&\
     pip install -U docker-compose &&\
